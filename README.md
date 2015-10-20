@@ -23,22 +23,22 @@ To use Vagrant to create a local environment, follow the instructions below:
 - Follow **all** the instructions for download and configure [Laravel Homestead](http://laravel.com/docs/5.1/homestead)
 - Clone this repository
 - Set your custom 
-- Go to formstack-maps folder
-  ```sh
-  cd formstack-maps
-  ```
-- Ensure that you have permission to write the **storage** folder
-  ```sh
-  sudo chown -R myuser:www-data storage/
-  ```
-- Run the vagrant
-  ```sh
-  vagrant up
-  ```
-- To stops the vagrant machine, run the destroy command
-  ```sh
-  vagrant destroy --force
-  ```
+- Go to formstack-maps :
+```
+cd formstack-maps
+```
+- Ensure that you have permission to write the **storage** folder:
+```
+sudo chown -R myuser:www-data storage/
+```
+- Run the vagrant:
+```
+vagrant up
+```
+- To stops the vagrant machine, run the destroy command:
+```
+vagrant destroy --force
+```
 
 ## Third-party components
 
