@@ -30,6 +30,7 @@ cd formstack-maps
 - Ensure that you have permission to write the **storage** folder:
 ```
 sudo chown -R myuser:www-data storage/
+chmod -R 755 storage/
 ```
 - Run the vagrant:
 ```
