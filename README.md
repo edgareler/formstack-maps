@@ -24,22 +24,22 @@ To use Vagrant to create a local environment, follow the instructions below:
 - Clone this repository
 - Set your custom 
 - Go to formstack-maps folder:
-  ```
-  cd formstack-maps
-  ```
+```sh
+cd formstack-maps
+```
 - Ensure that you have permission to write the **storage** folder:
-  ```
-  sudo chown -R myuser:www-data storage/
-  chmod -R 755 storage/
-  ```
+```sh
+sudo chown -R myuser:www-data storage/
+chmod -R 755 storage/
+```
 - Run the vagrant:
-  ```
-  vagrant up
-  ```
+```sh
+vagrant up
+```
 - To stops the vagrant machine, run the destroy command:
-  ```
-  vagrant destroy --force
-  ```
+```sh
+vagrant destroy --force
+```
 
 ## Third-party components
 
