@@ -1,4 +1,4 @@
-# formstack-maps
+# Formstack Maps
 
 Places Review application created with Laravel for integrate Formstack and Google Maps
 
@@ -25,20 +25,20 @@ To use Vagrant to create a local environment, follow the instructions below:
 - Set your custom 
 - Go to formstack-maps folder:
 ```sh
-cd formstack-maps
+$ cd formstack-maps
 ```
 - Ensure that you have permission to write the **storage** folder:
 ```sh
-sudo chown -R myuser:www-data storage/
-chmod -R 755 storage/
+$ sudo chown -R myuser:www-data storage/
+$ chmod -R 755 storage/
 ```
 - Run the vagrant:
 ```sh
-vagrant up
+$ vagrant up
 ```
 - To stops the vagrant machine, run the destroy command:
 ```sh
-vagrant destroy --force
+$ vagrant destroy --force
 ```
 
 ## Third-party components
