@@ -1,0 +1,145 @@
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden; }
+
+.search-elements, div#top input {
+  width: 70%;
+  max-width: 20.0rem;
+  font-family: Roboto, sans-serif;
+  font-size: 0.9rem; }
+
+div#top {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  pointer-events: none; }
+  div#top input {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.5rem 0;
+    border: none;
+    pointer-events: auto;
+    padding: 0.55rem 0.65rem;
+    outline: none;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    border-radius: 0.2rem;
+    -webkit-box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2); }
+  div#top svg {
+    display: inline-block;
+    vertical-align: top;
+    max-height: 2.0rem;
+    max-width: 1.375em;
+    margin: 0.5rem; }
+
+div#map_canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1; }
+
+div.infoTitle,
+div.infoAddress,
+div.infoRating {
+  line-height: 1.2rem; }
+
+div.infoTitle {
+  font-weight: 400; }
+
+div.infoReviewButton {
+  margin-top: 0.8rem;
+  line-height: 2.0rem;
+  color: #51af42;
+  font-weight: bold; }
+  div.infoReviewButton a {
+    color: #51af42;
+    text-decoration: none;
+    outline: none; }
+  div.infoReviewButton img {
+    max-height: 2.0rem;
+    float: left;
+    margin-right: 0.25rem; }
+
+div.infoRating {
+  color: #eb6e00; }
+  div.infoRating span {
+    font-size: 1.0rem; }
+  div.infoRating a {
+    color: #eb6e00;
+    margin-left: 0.5rem; }
+
+div#formstack {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.8); }
+  div#formstack iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    margin: auto;
+    border: none; }
+  div#formstack div.reviews {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    max-height: 700px;
+    background: white;
+    -webkit-box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2); }
+    div#formstack div.reviews div.innerReviews {
+      padding: 2.5rem 3.0rem; }
+    div#formstack div.reviews div.placeName {
+      font-size: 1.8rem; }
+    div#formstack div.reviews div.placeAddress {
+      font-size: 0.8rem;
+      color: #666; }
+    div#formstack div.reviews div.placeRating {
+      color: #eb6e00;
+      padding: 0.6rem 0; }
+      div#formstack div.reviews div.placeRating span {
+        padding: 0 0.15rem; }
+      div#formstack div.reviews div.placeRating span.ratingNumber {
+        font-size: 2.0rem; }
+      div#formstack div.reviews div.placeRating span.ratingStars {
+        font-size: 1.8rem; }
+      div#formstack div.reviews div.placeRating span.ratingCount {
+        font-size: 1.0rem;
+        color: #666; }
+    div#formstack div.reviews div.placeReviews {
+      font-size: 0.85rem;
+      color: black;
+      overflow-y: auto;
+      height: 100%;
+      max-height: 492px; }
+      div#formstack div.reviews div.placeReviews div.singleReview {
+        padding: 0.5rem 0;
+        line-height: 1.2rem; }
+        div#formstack div.reviews div.placeReviews div.singleReview div.reviewAuthor {
+          font-weight: bold; }
+        div#formstack div.reviews div.placeReviews div.singleReview div.reviewDate {
+          color: #666; }
+        div#formstack div.reviews div.placeReviews div.singleReview div.reviewDesc span.ratingStars {
+          color: #eb6e00;
+          font-size: 1.2rem;
+          margin-right: 0.5rem; }
+
+/*# sourceMappingURL=application.css.map */
