@@ -22,7 +22,7 @@ To use Vagrant to create a local environment, follow the instructions below:
 - Install Vagrant (1.7.4+)
 - Follow **all** the instructions for download and configure [Laravel Homestead](http://laravel.com/docs/5.1/homestead)
 - Clone this repository
-- Set your custom 
+- Set your custom configs
 - Go to formstack-maps folder:
 ```sh
 $ cd formstack-maps
