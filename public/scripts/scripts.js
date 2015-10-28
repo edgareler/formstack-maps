@@ -244,8 +244,6 @@
      */
     function findPlace(place) {
         for (var p in places) {
-            /*if (places[p].place === place.place
-             && places[p].address === place.address) {*/
             if (places[p].googleplaceid === place.googleplaceid) {
                 return p;
             }
@@ -626,10 +624,10 @@
             var divReviewDate = document.createElement('div');
             divReviewDate.setAttribute('class', 'reviewDate');
 
-            var reviewDate = new Date(place.reviews[i].timestamp);
+            var reviewDate = moment(place.reviews[i].timestamp);
 
             var textReviewDate = document
-                .createTextNode(reviewDate.toLocaleDateString());
+                .createTextNode(reviewDate.format('MM/DD/YYYY'));
 
             divReviewDate.appendChild(textReviewDate);
 

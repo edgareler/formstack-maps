@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" />
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="//maps.googleapis.com/maps/api/js?key=@yield('google_api_key')&sensor=false&libraries=places"></script>
+        <script src="/scripts/moment.min.js"></script>
         <script src="/scripts/scripts.js"></script>
     </head>
     <body>
