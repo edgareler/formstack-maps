@@ -4,8 +4,6 @@ Places Review application created with Laravel for integrate Formstack and Googl
 
 There is no database at this application. All the data is sync with Formstack.
 
-A running demo of this application can be accessed at: formstack.edgar.systems:8888
-
 ## Screenshots
 
 ![Screenshot 01 of Formstack Maps]
